@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #050014;
+  color: white;
+  text-align: center;
+}
+
+/* Animated Background */
+.bg {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, #6d28d9, transparent 60%);
+  animation: pulse 6s infinite alternate;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  from { opacity: .3; }
+  to { opacity: .7; }
+}
+
+h1 {
+  color: #ff4ecd;
+  text-shadow: 0 0 10px #ff4ecd;
+}
+
+#search {
+  padding: 12px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 20px;
+  border: none;
+  margin: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  background: linear-gradient(145deg, #0a0225, #120040);
+  border-radius: 15px;
+  padding: 12px;
+  box-shadow: 0 0 15px #6d28d9;
+  position: relative;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff4ecd;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.tag {
+  display: inline-block;
+  background: #312e81;
+  padding: 3px 8px;
+  border-radius: 10px;
+  margin: 3px;
+  font-size: 12px;
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+}
+
+.modal-box {
+  background: #0f172a;
+  margin: 10% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+
+#close {
+  float: right;
+  cursor: pointer;
+  color: red;
+}
