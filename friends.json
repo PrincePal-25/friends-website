@@ -1,10 +1,20 @@
 [
   {
-    "name": "Rahul",
-    "bio": "YouTuber & Gamer",
+    "name": "Brij Kishore Yadav",
+    "bio": "Billu Don",
     "photo": "",
-    "category": ["Gamer"],
+    "category": ["Cricket lover"],
     "github": "",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/mr_brijkishor_40?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   }
+  ,
+{
+  "name": "Prince Kashyap",
+  "bio": "Smarty",
+  "photo": "",
+  "category": ["Free Fire"],
+  "github": "",
+  "instagram": "https://www.instagram.com/_its.__prince_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+}
+
 ]
