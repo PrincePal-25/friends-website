@@ -137,3 +137,10 @@ h1 {
   box-shadow: 0 0 15px #ff4ecd, 0 0 30px #6d28d9;
   color: #ff4ecd;
 }
+.footer img {
+  width: 40px;        /* main size */
+  max-width: 40px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
