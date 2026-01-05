@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Admin Panel</title>
+  <title>Admin Panel v2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -18,56 +18,63 @@
       border: none;
     }
     button {
-      padding: 10px 20px;
-      margin-top: 10px;
-      border: none;
+      padding: 10px 16px;
+      margin: 6px;
       border-radius: 10px;
-      background: #ff4ecd;
+      border: none;
+      background: #6d28d9;
       color: white;
       cursor: pointer;
     }
     textarea {
       width: 100%;
-      height: 200px;
+      height: 260px;
       margin-top: 15px;
       border-radius: 10px;
       padding: 10px;
+      font-family: monospace;
     }
   </style>
 </head>
 <body>
 
-<h2>⚙️ Admin Panel – Add Friend</h2>
+<h2>⚙️ Admin Panel v2</h2>
 
 <input id="name" placeholder="Name">
 <input id="bio" placeholder="Bio">
-<input id="photo" placeholder="Photo filename (e.g. aman.jpg)">
-<input id="category" placeholder="Category (comma separated: Gamer,Dev)">
+<input id="photo" placeholder="Photo filename">
+<input id="category" placeholder="Categories (comma separated)">
 <input id="github" placeholder="GitHub link">
 <input id="instagram" placeholder="Instagram link">
 <input id="youtube" placeholder="YouTube link">
 <input id="discord" placeholder="Discord link">
 
-<button onclick="generate()">Generate JSON</button>
+<button onclick="addFriend()">Add Friend</button>
+<button onclick="generate()">Generate FULL friends.json</button>
 
-<textarea id="output" placeholder="Generated JSON will appear here"></textarea>
+<textarea id="output"></textarea>
 
 <script>
-function generate() {
-  const obj = {
+let friends = [];
+
+function addFriend() {
+  if (!name.value) return alert("Name required");
+  friends.push({
     name: name.value,
     bio: bio.value,
     photo: photo.value,
-    category: category.value
-      ? category.value.split(",").map(c => c.trim())
-      : [],
+    category: category.value ? category.value.split(",").map(c => c.trim()) : [],
     github: github.value,
     instagram: instagram.value,
     youtube: youtube.value,
     discord: discord.value
-  };
+  });
+  name.value = bio.value = photo.value = category.value =
+  github.value = instagram.value = youtube.value = discord.value = "";
+}
 
-  output.value = JSON.stringify(obj, null, 2);
+function generate() {
+  output.value = JSON.stringify(friends, null, 2);
 }
 </script>
 
