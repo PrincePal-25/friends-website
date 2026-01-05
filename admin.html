@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #050014;
+      color: white;
+      font-family: Arial;
+      padding: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      border-radius: 8px;
+      border: none;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #ff4ecd;
+      color: white;
+      cursor: pointer;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-top: 15px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>⚙️ Admin Panel – Add Friend</h2>
+
+<input id="name" placeholder="Name">
+<input id="bio" placeholder="Bio">
+<input id="photo" placeholder="Photo filename (e.g. aman.jpg)">
+<input id="category" placeholder="Category (comma separated: Gamer,Dev)">
+<input id="github" placeholder="GitHub link">
+<input id="instagram" placeholder="Instagram link">
+<input id="youtube" placeholder="YouTube link">
+<input id="discord" placeholder="Discord link">
+
+<button onclick="generate()">Generate JSON</button>
+
+<textarea id="output" placeholder="Generated JSON will appear here"></textarea>
+
+<script>
+function generate() {
+  const obj = {
+    name: name.value,
+    bio: bio.value,
+    photo: photo.value,
+    category: category.value
+      ? category.value.split(",").map(c => c.trim())
+      : [],
+    github: github.value,
+    instagram: instagram.value,
+    youtube: youtube.value,
+    discord: discord.value
+  };
+
+  output.value = JSON.stringify(obj, null, 2);
+}
+</script>
+
+</body>
+</html>
