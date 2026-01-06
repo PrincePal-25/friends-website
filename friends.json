@@ -62,7 +62,7 @@
 }
 ,
 {
-  "name": "Peyush",
+  "name": "Piyush",
   "bio": "Serious",
   "photo": "",
   "category": ["Study"],
@@ -117,60 +117,100 @@
 }
 ,
 {
-  "name": "",
-  "bio": "",
+  "name": "Abhay Singh",
+  "bio": "Virat Kohli",
   "photo": "",
-  "category": [""],
+  "category": ["Cricket"],
   "github": "",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/king_123_fir?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   "youtube": "",
   "discord": ""
 }
 ,
 {
-  "name": "",
-  "bio": "",
+  "name": "Deepak Yadav",
+  "bio": "Attitude",
   "photo": "",
-  "category": [""],
+  "category": ["NONE"],
   "github": "",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/_its_ydv_sahab?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   "youtube": "",
   "discord": ""
 }
 ,
 {
-  "name": "",
-  "bio": "",
+  "name": "Rishabh Yadav",
+  "bio": "Mast",
   "photo": "",
-  "category": [""],
+  "category": ["Masti"],
   "github": "",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/rishabh_yaduvanshi07/?utm_source=ig_web_button_share_sheet",
   "youtube": "",
   "discord": ""
 }
 ,
 {
-  "name": "",
-  "bio": "",
+  "name": "Secret",
+  "bio": "love",
   "photo": "",
-  "category": [""],
+  "category": ["Love"],
   "github": "",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/cute.divya06/?utm_source=ig_web_button_share_sheet",
   "youtube": "",
   "discord": ""
 }
 ,
 {
-  "name": "",
-  "bio": "",
+  "name": "Prakhar Yadav",
+  "bio": "Height",
   "photo": "",
-  "category": [""],
+  "category": ["Long"],
   "github": "",
-  "instagram": "",
+  "instagram": "https://www.instagram.com/pr4khar._.007?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   "youtube": "",
   "discord": ""
 }
-
+,
+{
+  "name": "Rishabh Yadav",
+  "bio": "Friend",
+  "photo": "",
+  "category": ["Friend"],
+  "github": "",
+  "instagram": "https://www.instagram.com/rishabh_chaudhary007rr/?utm_source=ig_web_button_share_sheet",
+  "youtube": "",
+  "discord": ""
+}
+{
+  "name": "Vikas Yadav",
+  "bio": "Captain",
+  "photo": "",
+  "category": ["Captain"],
+  "github": "",
+  "instagram": "https://www.instagram.com/vika.syadav1433/?utm_source=ig_web_button_share_sheet",
+  "youtube": "",
+  "discord": ""
+}
+{
+  "name": "Rishal Yadav",
+  "bio": "friend",
+  "photo": "",
+  "category": ["Friend"],
+  "github": "",
+  "instagram": "https://www.instagram.com/rishal_ydv_up_87/?utm_source=ig_web_button_share_sheet",
+  "youtube": "",
+  "discord": ""
+}
+{
+  "name": "Arpit Yadav",
+  "bio": "Friend",
+  "photo": "",
+  "category": ["Friend"],
+  "github": "",
+  "instagram": "https://www.instagram.com/arpit_ydv307?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "youtube": "",
+  "discord": ""
+}
 
 
 
