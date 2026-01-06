@@ -51,7 +51,7 @@
 }
 ,
 {
-  "name": "Prateek Shakya",
+  "name": "Prateek Yadav",
   "bio": "Cricket",
   "photo": "prateek.png",
   "category": ["Cricket"],
@@ -93,6 +93,84 @@
   "youtube": "",
   "discord": ""
 }
+,
+{
+  "name": "Ishu Sagar",
+  "bio": "Gamer",
+  "photo": "",
+  "category": ["FreeFire","Youtuber"],
+  "github": "",
+  "instagram": "https://www.instagram.com/_ishu_4757?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "youtube": "www.youtube.com/@ishuxd69",
+  "discord": "discord.gg/JMWKnMPCqV"
+}
+,
+{
+  "name": "Raghav Rajput",
+  "bio": "Virat Kohli",
+  "photo": "",
+  "category": ["Cricket"],
+  "github": "",
+  "instagram": "https://www.instagram.com/__its__raghav__04?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "youtube": "",
+  "discord": ""
+}
+,
+{
+  "name": "",
+  "bio": "",
+  "photo": "",
+  "category": [""],
+  "github": "",
+  "instagram": "",
+  "youtube": "",
+  "discord": ""
+}
+,
+{
+  "name": "",
+  "bio": "",
+  "photo": "",
+  "category": [""],
+  "github": "",
+  "instagram": "",
+  "youtube": "",
+  "discord": ""
+}
+,
+{
+  "name": "",
+  "bio": "",
+  "photo": "",
+  "category": [""],
+  "github": "",
+  "instagram": "",
+  "youtube": "",
+  "discord": ""
+}
+,
+{
+  "name": "",
+  "bio": "",
+  "photo": "",
+  "category": [""],
+  "github": "",
+  "instagram": "",
+  "youtube": "",
+  "discord": ""
+}
+,
+{
+  "name": "",
+  "bio": "",
+  "photo": "",
+  "category": [""],
+  "github": "",
+  "instagram": "",
+  "youtube": "",
+  "discord": ""
+}
+
 
 
 
